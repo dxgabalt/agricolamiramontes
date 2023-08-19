@@ -1,0 +1,84 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: rgb(83, 190, 79);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(60, 148, 57);
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 2rem;
+}
+
+/* Estilos para los formularios */
+form {
+    display: grid;
+    grid-gap: 1rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+/* Agregar estos estilos al archivo styles.css */
+
+.section-button {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: rgb(60, 148, 57);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* Estilos para el pie de página */
+footer {
+    background-color: rgb(60, 148, 57);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
